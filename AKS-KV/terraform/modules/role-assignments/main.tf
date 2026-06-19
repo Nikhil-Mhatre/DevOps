@@ -9,8 +9,8 @@ resource "azurerm_role_assignment" "uami_kv_user" {
 
 
 // Giving Terraform SP this role in order to add secrets
-resource "azurerm_role_assignment" "admin_kv_officer" {
+resource "azurerm_role_assignment" "admin_kv_admin" {
   scope                = var.keyvault_id
-  role_definition_name = "Key Vault Secrets Officer"
+  role_definition_name = "Key Vault Administrator"
   principal_id         = data.azurerm_client_config.current.object_id
 }

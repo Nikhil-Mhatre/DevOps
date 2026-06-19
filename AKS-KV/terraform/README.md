@@ -11,8 +11,10 @@ Before deploying, ensure you have the following CLI tools installed locally and 
 - [Azure CLI](https://learn.microsoft.com/en-us/cli/azure/install-azure-cli) (`az login`)
 - [Terraform](https://developer.hashicorp.com/terraform/downloads) (`>= 1.5.0`)
 - [Kubernetes CLI](https://kubernetes.io/docs/tasks/tools/) (`kubectl`)
-- Terraform Service Principal create on Azure EntraID with **Contributor** RBAC Role assigned.
-- Storage Account for storing terraform state files remotely.
+- Create a Terraform Service Principal in Azure Entra ID and assign the following Azure RBAC roles:
+   - Contributor
+   - User Access Administrator (required for creating or manage role assignments)
+- Provision an Azure Storage Account to store Terraform state files remotely.
 
 ---
 
@@ -148,4 +150,3 @@ terraform destroy -auto-approve
 ```
 
 ---
-
