@@ -29,7 +29,7 @@ ssh-keygen -t ed25519 -C "your-email@example.com" -f ~/.ssh/github-<YOUR_NAME>
 | `-C "your-email"` | Attaches a label/comment to identify the key |
 | `-f ~/.ssh/github-<YOUR_NAME>` | Saves the key pair with a custom filename |
 
-> **Tip:** Replace `your-email@example.com` with the email associated with your GitHubaccount.
+> **Tip:** Replace `your-email@example.com` with the email associated with your GitHub account.
 > 
 
 ---
@@ -106,7 +106,7 @@ This copies the public key to your clipboard.
 
 ## Step 8 — Add the Public Key to github
 
-1. Sign in to your GitHubaccount
+1. Sign in to your GitHub account
 2. Navigate to **User Settings → SSH Keys** *(Click your avatar → Preferences → SSH Keys)*
 3. Paste the copied public key into the **Key** field
 4. Add a descriptive **Title** (e.g., `Work Laptop - Windows`)
