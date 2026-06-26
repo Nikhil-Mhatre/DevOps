@@ -1,0 +1,18 @@
+# State files — always store remotely, never commit locally
+*.tfstate
+*.tfstate.*
+
+# Terraform working directory
+.terraform/
+
+# Crash logs
+crash.log
+crash.*.log
+
+# Variable files may contain sensitive values
+*.tfvars
+*.tfvars.json
+
+# Provider lock file (optional: include to pin provider versions in VCS)
+.terraform.lock.hcl
+!terraform.sample.tfvars
