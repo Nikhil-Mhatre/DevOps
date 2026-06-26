@@ -107,11 +107,15 @@ This copies the public key to your clipboard.
 ## Step 8 — Add the Public Key to github
 
 1. Sign in to your GitHub account
-2. Navigate to **User Settings → SSH Keys** *(Click your avatar → Preferences → SSH Keys)*
-3. Paste the copied public key into the **Key** field
-4. Add a descriptive **Title** (e.g., `Work Laptop - Windows`)
-5. Optionally set an **Expiry date**
-6. Click **Add key**
+2. Click on **User Navigation Menu (Avatar)** on Top Right Side → Settings.
+3. Navigate to **Access → SSH and GPG Keys**.
+4. Click on **New SSH Key** to add new key.
+5. Paste the copied public key into the **Key** field
+6. Add a descriptive **Title** (e.g., `Work Laptop - Windows`)
+7. Select a **Key Type** to **Authentication Key**
+8. Click **Add key**
+
+<img width="1904" height="878" alt="image" src="https://github.com/user-attachments/assets/0b8b39b4-49bc-46bd-91d0-6472c4430ee4" />
 
 ---
 
