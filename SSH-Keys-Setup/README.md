@@ -115,7 +115,7 @@ This copies the public key to your clipboard.
 7. Select a **Key Type** to **Authentication Key**
 8. Click **Add key**
 
-<img width="1904" height="878" alt="image" src="https://github.com/user-attachments/assets/0b8b39b4-49bc-46bd-91d0-6472c4430ee4" />
+<img width="1904" height="878" alt="image" src="https://github.com/Nikhil-Mhatre/DevOps/blob/main/SSH-Keys-Setup/public/github-user-setting.png" />
 
 ---
 
